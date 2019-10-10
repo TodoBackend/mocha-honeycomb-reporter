@@ -5,9 +5,13 @@
   "author": "Pete Hodgson <git@thepete.net>",
   "license": "MIT",
   "scripts": {
-    "sample-test": "mocha sample-test"
+    "sample-test": "mocha --reporter=./lib/reporter.js sample-test",
+    "sample-test:inspect": "mocha --inspect-brk --reporter=./lib/reporter.js sample-test"
   },
   "devDependencies": {
+  },
+  "dependencies": {
+    "uuid": "^3.3.3",
     "mocha": "^6.2.1"
   }
 }
