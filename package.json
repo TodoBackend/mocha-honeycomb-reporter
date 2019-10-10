@@ -1,0 +1,13 @@
+{
+  "name": "mocha-honeycomb-reporter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Pete Hodgson <git@thepete.net>",
+  "license": "MIT",
+  "scripts": {
+    "sample-test": "mocha sample-test"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.1"
+  }
+}
