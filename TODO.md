@@ -1,0 +1,2 @@
+- [ ] include some basic context about each test (passed, failed, skipped) in each span
+- [ ] allow embedding of test trace within a larger trace (for example a crowdsource test run trace)
